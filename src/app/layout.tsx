@@ -1,6 +1,5 @@
 import 'public/css/bootstrap.min.css'
 import 'public/css/font-awesome.min.css'
-// import 'public/css/owl .carousel.min.css'
 import 'public/css/owl.theme.default.min.css'
 import 'public/css/style.scss'
 import type { Metadata } from 'next'

@@ -10,7 +10,8 @@ export default function Home() {
   /**
    * Метод клика кнопке заказа услуги
    */
-  function clickOrderService(caption) {
+  function clickOrderService(caption: string) {
+    // @ts-ignore
     setShowOrderPopup(
       {
         show: true,

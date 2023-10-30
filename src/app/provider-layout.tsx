@@ -3,11 +3,15 @@
 import Footer from "../../compomemts/footer";
 import Header from "../../compomemts/header";
 import {OrderPopupContext} from "../../context/store"
-import {useState} from "react";
+import { ReactNode, useState } from "react";
 
-const ProviderLayout = ({children}) => {
+interface Props {
+  children?: ReactNode
+}
 
-  const [showOrderPopup, setShowOrderPopup] = useState(false)
+const ProviderLayout = ({children}: Props) => {
+
+  const [showOrderPopup, setShowOrderPopup] = useState([])
   return (
     <>
       <OrderPopupContext.Provider value={[showOrderPopup, setShowOrderPopup]}>

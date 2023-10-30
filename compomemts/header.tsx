@@ -6,14 +6,24 @@ import { OrderPopupContext } from '../context/store';
 const Header = () => {
   const [showOrderPopup, setShowOrderPopup] = useContext(OrderPopupContext);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  function orderButtonClick(e: any, caption:string) {
+    // @ts-ignore
+    setShowOrderPopup({
+      show: true,
+      caption: caption
+    })
+    e.preventDefault()
+  }
   return (
     <div>
-      <OrderPopup
-        showBlock={showOrderPopup}
-        clickOrderPopup={() => {
-          setShowOrderPopup(false);
-        }}
-      />
+      {/*<OrderPopup*/}
+      {/*  showBlock={showOrderPopup}*/}
+      {/*  clickOrderPopup={() => {*/}
+      {/*    setShowOrderPopup(false);*/}
+      {/*  }}*/}
+      {/*/>*/}
+      <OrderPopup></OrderPopup>
       <div className="header">
         <div className="topbar hidden-xs">
           <div className="container">
@@ -72,13 +82,7 @@ const Header = () => {
                   8 (495) 123-45-67
                 </div>
               </div>
-              <a href="#" onClick={(e) => {
-                setShowOrderPopup({
-                  show: true,
-                  caption: 'Обратный звонок'
-                })
-                e.preventDefault()
-              }} className="btn btn-cta">Обратный звонок</a>
+              <a href="#" onClick={(e) => orderButtonClick(e, 'Обратный звонок')} className="btn btn-cta">Обратный звонок</a>
             </div>
           </div>
         </div>

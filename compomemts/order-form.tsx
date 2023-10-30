@@ -4,6 +4,7 @@ import { OrderPopupContext } from "../context/store";
 const OrderForm = () => {
   const [showOrderPopup, setShowOrderPopup] = useContext(OrderPopupContext)
   function sendOrder() {
+    // @ts-ignore
     setShowOrderPopup({
       show: true,
       caption: 'Оставить заявку'

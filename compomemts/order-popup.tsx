@@ -2,13 +2,13 @@
 import {useContext, useEffect, useState} from "react";
 import {OrderPopupContext} from "../context/store";
 
-const OrderPopup = ({clickOrderPopup}) => {
+const OrderPopup = () => {
 
   const [showPopup, setShowPopup] = useState(false);
   const [showOrderPopup] = useContext(OrderPopupContext)
 
   useEffect(() => {
-    console.log('showOrderPopup', showOrderPopup)
+    // @ts-ignore
     setShowPopup(showOrderPopup.show)
   }, [showOrderPopup])
 
@@ -17,11 +17,11 @@ const OrderPopup = ({clickOrderPopup}) => {
   }
 
   return (
-    <div onClick={clickOrderPopup} className={`order__popup__wrapper${showPopup ? ' active' : ''}`}>
+    <div className={`order__popup__wrapper${showPopup ? ' active' : ''}`}>
       <div id="order_block" className="order__popup__wrap" onClick={(e) => e.stopPropagation()}>
         <span className="order__popup__close" onClick={closePopup}>&nbsp;</span>
         <nav className="site__order__wr">
-          <div className="order__title">{showOrderPopup.caption}</div>
+          <div className="order__title">{showOrderPopup['caption']}</div>
           <p className="ajax-result-form2">Укажите Ваш номер телефона и имя</p>
           <form name="form2" id="form2" method="post" className="order__form">
             <input name="action_c" id="action_c" value="1" type="hidden" />

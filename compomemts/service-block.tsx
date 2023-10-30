@@ -1,6 +1,10 @@
 import React from 'react';
-
-const ServiceBlock = ({imageSrc, serviceName, linkHref}) => {
+interface Props {
+ imageSrc: string;
+ serviceName:string;
+ linkHref: string;
+}
+const ServiceBlock = ({imageSrc, serviceName, linkHref}: Props) => {
   return (
     <div className="col-sm-6 col-md-4">
       <div className="feature-box-8">

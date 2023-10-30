@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OurWorksBlock = ({imageSrc, serviceName}) => {
+const OurWorksBlock = ({imageSrc, serviceName}: {imageSrc: string, serviceName: string}) => {
   return (
     <div className="col-sm-6 col-md-4">
       <div className="box-image-4">

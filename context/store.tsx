@@ -1,4 +1,4 @@
 'use client'
 import { createContext } from 'react';
 
-export const OrderPopupContext = createContext({})
+export const OrderPopupContext = createContext([])
