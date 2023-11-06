@@ -7,7 +7,6 @@ const Footer = () => {
         <div className="row">
           <div className="col-sm-3 col-md-3">
             <div className="footer-item">
-              {/*<img src="/public/images/logo-light.png" alt="logo bottom" className="logo-bottom" />*/}
               <Image
                 src="/images/logo-light.png"
                 alt="logo bottom"
@@ -15,8 +14,9 @@ const Footer = () => {
                 width={170}
                 height={52}
               ></Image>
-                <p>За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке,
-                  некоторые - намеренно (например, юмористические варианты).</p>
+                <p>Изготовление высокоточных деталей на ЧПУ станках</p>
+                <p>Токарные работы любой сложности</p>
+                <p>Доставка ТК по всей России</p>
             </div>
           </div>
 

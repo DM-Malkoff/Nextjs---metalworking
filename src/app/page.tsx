@@ -42,9 +42,11 @@ export default function Home() {
           <div className="row no-gutter">
             <div className="row">
               <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка металла" linkHref="#"/>
+              <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка стали" linkHref="#"/>
               <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка алюминия" linkHref="#"/>
               <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка меди" linkHref="#"/>
               <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка латуни" linkHref="#"/>
+              <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка бронзы" linkHref="#"/>
               <ServiceBlock imageSrc="images/small_item_172.png" serviceName="Токарная обработка титана" linkHref="#"/>
               <ServiceBlock imageSrc="images/small_item_173.png" serviceName="Токарная обработка нержавейки" linkHref="#"/>
               <ServiceBlock imageSrc="images/small_item_175.jpg" serviceName="Токарная обработка чугуна" linkHref="#"/>
@@ -56,7 +58,7 @@ export default function Home() {
               <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка молибдена" linkHref="#"/>
               <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка оргстекла" linkHref="#"/>
               <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка полиуретана" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка полиуретана" linkHref="#"/>
+              <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка фторопласта" linkHref="#"/>
             </div>
             <div className="order">
               <a href="#"
@@ -103,10 +105,8 @@ export default function Home() {
               <h2 className="section-heading">Преимущества в технологии выполнения заказа</h2>
             </div>
           </div>
-          <div className="text">
-            Наша компания имеет ряд преимуществ в технологии выполнения заказа, которые позволяют нам гибко использовать различные материалы и обеспечивать высокое качество обработки.
-          </div>
           <div className="row">
+            <p>Наша компания имеет ряд преимуществ в технологии выполнения заказа, которые позволяют нам гибко использовать различные материалы и обеспечивать высокое качество обработки.</p>
             <ol>
               <li>Возможность обработки различных материалов на одной установке. Это позволяет нам повысить производительность и снизить количество часов, необходимых для выполнения заказа. Максимальная скорость исполнения заказа является одной из наших основных целей.</li>
               <li>Универсальность и разнообразный инструментарий позволяют нам выполнять не только токарные работы, но и проводить фрезерные работы. Мы можем обрабатывать детали различных размеров и форм, обеспечивая стабильное качество и максимальную скорость исполнения заказа.</li>
@@ -203,6 +203,7 @@ export default function Home() {
               <li>Наша компания предлагает возможность изготовления образцов без внесения аванса. Мы принимаем заказы любого объема и готовы выполнить их в кратчайшие сроки.</li>
               <li>Цена на наши услуги всегда ниже, чем у конкурентов. Мы предлагаем различные скидки и гибкие условия сотрудничества. Все это делает нас более привлекательными для клиентов.</li>
               <li>В работе мы используем современное оборудование и работаем только с опытными мастерами. Это позволяет нам гарантировать высокий уровень качества каждого изделия.</li>
+              <li>Наше производство представляет собой цех с парком токарных станков, которое находится в г. Ижевск, поэтому мы можем позволить себе делать продукцию по ценам ниже чем в Москве.</li>
             </ul>
             <p>Если вам необходима токарная обработка, оставьте заявку на нашем сайте. Наш специалист свяжется с вами в кратчайшие сроки и ответит на все интересующие вас вопросы.</p>
           </div>
