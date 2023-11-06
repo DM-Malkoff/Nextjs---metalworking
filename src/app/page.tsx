@@ -38,27 +38,52 @@ export default function Home() {
         {/*/>*/}
       </div>
       <div className="section services overlap">
-        <div className="container">
-          <div className="row no-gutter">
+        {/*<div className="container">*/}
+        {/*  <div className="row no-gutter">*/}
+        {/*    <div className="row">*/}
+        {/*      <h2 className="section-heading">Популярные виды работ</h2>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка металла" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_173.png" serviceName="Токарная обработка нержавейки" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка алюминия" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка меди" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка латуни" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка бронзы" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_172.png" serviceName="Токарная обработка титана" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_175.jpg" serviceName="Токарная обработка чугуна" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка капролона" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка полиамида" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка пластика" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка текстолита" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка эбонита" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка молибдена" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка оргстекла" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка полиуретана" linkHref="#"/>*/}
+        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка фторопласта" linkHref="#"/>*/}
+        {/*    </div>*/}
+        {/*    <div className="order">*/}
+        {/*      <a href="#"*/}
+        {/*         title=""*/}
+        {/*         className="btn btn-cta"*/}
+        {/*         onClick={(e) => {*/}
+        {/*           e.preventDefault();*/}
+        {/*           clickOrderService('Заказать услуги токаря');*/}
+        {/*         }}*/}
+        {/*      >Заказать услуги токаря</a>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
+        <div className="section feature overlap">
+          <div className="container">
             <div className="row">
-              <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка металла" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка стали" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка алюминия" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка меди" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка латуни" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка бронзы" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_172.png" serviceName="Токарная обработка титана" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_173.png" serviceName="Токарная обработка нержавейки" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_175.jpg" serviceName="Токарная обработка чугуна" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка капролона" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка полиамида" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка пластика" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка текстолита" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка эбонита" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка молибдена" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка оргстекла" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка полиуретана" linkHref="#"/>
-              <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка фторопласта" linkHref="#"/>
+              <div className="col-sm-12 col-md-12">
+                <h2 className="section-heading">Наши работы</h2>
+              </div>
+            </div>
+            <div className="row grid-services">
+              <OurWorksBlock imageSrc="images/tokarniye_raboty_1.jpg" serviceName="Токарные работы"></OurWorksBlock>
+              <OurWorksBlock imageSrc="images/tokarniye_raboty_2.jpg" serviceName="Валы"></OurWorksBlock>
+              <OurWorksBlock imageSrc="images/tokarniye_raboty_3.jpg" serviceName="Слесарные работы"></OurWorksBlock>
+              <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Слесарные работы"></OurWorksBlock>
             </div>
             <div className="order">
               <a href="#"
@@ -82,17 +107,21 @@ export default function Home() {
               <p>Наша компания специализируется на токарных работах и обрабатывает различные материалы на заказ. Мы работаем с металлом, включая:</p>
               <ul>
                 <li>алюминий</li>
-                <li>медь</li>
-                <li>латунь</li>
-                <li>титан</li>
                 <li>нержавеющую сталь</li>
+                <li>латунь</li>
+                <li>бронзу</li>
+                <li>медь</li>
+                <li>титан</li>
                 <li>чугун</li>
               </ul>
               <p>Кроме того, мы также обрабатываем ряд пластиков, включая:</p>
               <ul>
                 <li>капролон</li>
                 <li>полиамид</li>
+                <li>фторопласт</li>
               </ul>
+              <p>А также: текстолит, эбонит, молибден, оргстекло, полиуретан</p>
+
               <p>Мы гордимся тем, что можем предложить широкий спектр материалов для наших клиентов, чтобы удовлетворить их потребности в различных проектах. Независимо от того, какой материал вам нужен, мы готовы предоставить высококачественные токарные работы.</p>
             </div>
           </div>
@@ -129,12 +158,13 @@ export default function Home() {
               <p>Наша компания производит широкий спектр деталей, выполняя различные виды металлообработки. Мы специализируемся на изготовлении разнообразных изделий, включая самые сложные.</p>
               <p>Мы предлагаем следующие виды деталей:</p>
               <ul>
-                <li>Штифты: мы производим штифты различных размеров и форм, используя высококачественные материалы.</li>
-                <li>Болты: всех типов и размеров для различных применений.</li>
-                <li>Диски: мы производим диски для различных индустрий, включая автомобильную и промышленную отрасли.</li>
-                <li>Втулки</li>
-                <li>Оси и валы</li>
-                <li>Муфты</li>
+                <li>Штифты: мы производим штифты различных размеров и форм, используя высококачественные материалы;</li>
+                <li>Болты: всех типов и размеров для различных применений;</li>
+                <li>Диски: мы производим диски для различных индустрий, включая автомобильную и промышленную отрасли;</li>
+                <li>Втулки, штифты, шпильки, пальцы;</li>
+                <li>фланцы, штуцеры, поршни;</li>
+                <li>Оси и валы;</li>
+                <li>Муфты;</li>
                 <li>Фурнитура: мы производим различные виды фурнитуры, включая ручки, замки, петли и другие.</li>
               </ul>
               <p>Все наши детали производятся с использованием передовых технологий металлообработки, что гарантирует высокое качество и надежность каждого изделия. Мы готовы удовлетворить потребности клиентов в различных отраслях промышленности и предложить решения, соответствующие их требованиям.</p>
@@ -166,7 +196,7 @@ export default function Home() {
                 </li>
                 <li>Вытачивание пазов, галтелей и канавок в изделиях;</li>
                 <li>Зенкерование;</li>
-                <li>Накатывание резьбы;</li>
+                <li>Накатывание резьбы (нарезка резьбы);</li>
                 <li>Сверление отверстий;</li>
               </ul>
             </div>
@@ -206,20 +236,6 @@ export default function Home() {
               <li>Наше производство представляет собой цех с парком токарных станков, которое находится в г. Ижевск, поэтому мы можем позволить себе делать продукцию по ценам ниже чем в Москве.</li>
             </ul>
             <p>Если вам необходима токарная обработка, оставьте заявку на нашем сайте. Наш специалист свяжется с вами в кратчайшие сроки и ответит на все интересующие вас вопросы.</p>
-          </div>
-        </div>
-      </div>
-      <div className="section project">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12 col-md-12">
-              <h2 className="section-heading white">Наши работы</h2>
-            </div>
-          </div>
-          <div className="row grid-services">
-            <OurWorksBlock imageSrc="images/small_group_9.jpg" serviceName="Металлообработка"></OurWorksBlock>
-            <OurWorksBlock imageSrc="images/small_group_10.jpg" serviceName="Резка металла"></OurWorksBlock>
-            <OurWorksBlock imageSrc="images/small_group_11.jpg" serviceName="Слесарные работы"></OurWorksBlock>
           </div>
         </div>
       </div>

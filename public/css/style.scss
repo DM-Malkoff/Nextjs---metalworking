@@ -805,7 +805,8 @@ ul.circle li:before {
   font-size: 7px;
   color: #46c2ca; }
 .grid-services {
-  position: relative; height: 390px;
+  position: relative;
+  //height: 390px;
 }
 .bgsection {
   background: url(/public/images/bgoverlay-1.jpg) bottom center no-repeat;
@@ -1477,7 +1478,7 @@ ul.circle li:before {
 .feature-box-8 .body {
   position: relative;
   text-align: center;
-  padding: 30px 40px 30px; }
+  padding: 30px 20px 30px; }
 .feature-box-8 .body .icon-holder {
   position: absolute;
   left: 50%;

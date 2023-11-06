@@ -2,6 +2,7 @@
 import { useContext, useState } from 'react';
 import OrderPopup from './order-popup';
 import { OrderPopupContext } from '../context/store';
+import { email, phone } from "../constants/contacts";
 
 const Header = () => {
   const [showOrderPopup, setShowOrderPopup] = useContext(OrderPopupContext);
@@ -17,12 +18,6 @@ const Header = () => {
   }
   return (
     <div>
-      {/*<OrderPopup*/}
-      {/*  showBlock={showOrderPopup}*/}
-      {/*  clickOrderPopup={() => {*/}
-      {/*    setShowOrderPopup(false);*/}
-      {/*  }}*/}
-      {/*/>*/}
       <OrderPopup></OrderPopup>
       <div className="header">
         <div className="topbar hidden-xs">
@@ -38,29 +33,13 @@ const Header = () => {
               <div className="col-sm-7 col-md-6">
                 <div className="topbar-right">
                   <ul className="topbar-menu">
-                    <li><a href="/contacts/">Обратная связь</a></li>
-                    <li><a href="/contacts/">Контактная информация</a></li>
-                  </ul>
-                  <ul className="topbar-sosmed">
-                    <li>
-                      <a href="/#"><i className="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="/#"><i className="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="/#"><i className="fa fa-instagram"></i></a>
-                    </li>
-                    <li>
-                      <a href="/#"><i className="fa fa-pinterest"></i></a>
-                    </li>
-                  </ul>
+                    <li><a href="#contacts">Контактная информация</a></li>
+                  </ul>>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
         <div className="topbar-logo">
           <div className="container">
             <div className="contact-info">
@@ -70,7 +49,7 @@ const Header = () => {
                 </div>
                 <div className="body-content">
                   <div className="heading">Электронная почта</div>
-                  info@mysite.ru
+                  <a href={'mailto:' + email}>{email}</a>
                 </div>
               </div>
               <div className="box-icon-1">
@@ -79,7 +58,7 @@ const Header = () => {
                 </div>
                 <div className="body-content">
                   <div className="heading">Телефон</div>
-                  8 (495) 123-45-67
+                  <a href={'tel:'+ phone}>{ phone }</a>
                 </div>
               </div>
               <a href="#" onClick={(e) => orderButtonClick(e, 'Обратный звонок')} className="btn btn-cta">Обратный звонок</a>
