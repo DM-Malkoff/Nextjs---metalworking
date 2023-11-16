@@ -27,10 +27,13 @@ const Footer = () => {
               </div>
               <ul className="list">
                 <li>
-                  <a href="/services/tokarnaya-obrabotka-detalej/">Токарное изготовление деталей</a>
+                  <a href="#">Токарное изготовление деталей</a>
                 </li>
                 <li>
-                  <a href="/services/frezernaya-obrabotka-detalej/">Токарно-фрезерные работы</a>
+                  <a href="#">Токарно-фрезерные работы</a>
+                </li>
+                <li>
+                  <a href="#">Фрезеровка</a>
                 </li>
               </ul>
             </div>
@@ -43,22 +46,23 @@ const Footer = () => {
                   <a href="/" title="Главная">Главная</a>
                 </li>
                 <li>
-                  <a href="/company/" title="О компании">О компании</a>
+                  <a href="#about" title="О компании">О компании</a>
                 </li>
                 <li>
-                  <a href="/services/" title="Услуги">Услуги</a>
+                  <a href="#" title="Услуги">Услуги</a>
                 </li>
                 <li>
-                  <a href="/works/" title="Наши работы">Наши работы</a>
+                  <a href="#works" title="Наши работы">Наши работы</a>
                 </li>
                 <li>
-                  <a href="/contacts/" title="Контакты">Контакты</a>
+                  <a href="#contacts" title="Контакты">Контакты</a>
                 </li>
               </ul>
             </div>
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="footer-item">
+              <a name="contacts"></a>
               <div className="footer-title">Конаткты</div>
               <ul className="list">
                 <li><strong>Офис:</strong> г. Москва, ул. Житомирская 23, офис 5</li>

@@ -87,17 +87,17 @@ const Header = () => {
                     <a href="/">Главная</a>
                   </li>
                   <li>
-                    <a href="/company/">О компании</a>
+                    <a href="#about">О компании</a>
                   </li>
                   <li className={`dropdown ${dropdownOpen ? 'open': ''}`} onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
                     <a href="/services/" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Услуги<span
                       className="caret"></span></a>
                   </li>
                   <li>
-                    <a href="/works/">Наши работы</a>
+                    <a href="#works">Наши работы</a>
                   </li>
                   <li>
-                    <a href="/contacts/">Контакты</a>
+                    <a href="#contacts">Контакты</a>
                   </li>
                 </ul>
               </nav>
