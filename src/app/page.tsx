@@ -57,7 +57,7 @@ export default function Home() {
               <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная работы по металлу"></OurWorksBlock>
               <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная обработка черной стали"></OurWorksBlock>
               <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная работы по металлу"></OurWorksBlock>
-              <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная работы по металлу"></OurWorksBlock>
+              <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная механическая обработка металла"></OurWorksBlock>
               <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная работы по металлу"></OurWorksBlock>
             </div>
             <div className="order">
@@ -132,7 +132,7 @@ export default function Home() {
               </h2>
             </div>
             <div className="text">
-              <p>Наша компания производит широкий спектр продуции, выполняя различные виды металлообработки. Мы специализируемся на изготовлении разнообразных металлических изделий, включая самые сложные.</p>
+              <p>Наша компания производит широкий спектр продуции, выполняя различные виды металлообработки. Мы специализируемся на изготовлении разнообразных металлических изделий, включая самые сложные задачи.</p>
               <p>Мы предлагаем следующие виды деталей:</p>
               <ul>
                 <li>Штифты: делаем различных размеров и форм;</li>
@@ -230,9 +230,9 @@ export default function Home() {
               <table>
                 <tbody>
                   <tr>
-                    <td>Токарная обработка металла (нержавеющие, легированные стали) - от 30 руб./мин.</td>
-                    <td>Токарная обработка (алюминиевые, бронзовые, медные сплавы) - от 20 руб./мин.</td>
-                    <td>Токарная обработка (полиамиды, фторопласт, полиациталь) - от 15 руб./мин.</td>
+                    <td>Токарная обработка металла (нержавеющие, легированные стали) - от 30 руб./мин (от 1800 руб/час).</td>
+                    <td>Токарная обработка (алюминиевые, бронзовые, медные сплавы) - от 20 руб./мин. (от 1200 руб/час)</td>
+                    <td>Токарная обработка (полиамиды, фторопласт, полиациталь) - от 15 руб./мин. (900 руб/час)</td>
                   </tr>
                   <tr>
                     <td colSpan='3' className="center">
