@@ -38,40 +38,6 @@ export default function Home() {
         {/*/>*/}
       </div>
       <div className="section services overlap">
-        {/*<div className="container">*/}
-        {/*  <div className="row no-gutter">*/}
-        {/*    <div className="row">*/}
-        {/*      <h2 className="section-heading">Популярные виды работ</h2>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка металла" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_173.png" serviceName="Токарная обработка нержавейки" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка алюминия" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка меди" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка латуни" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_156.png" serviceName="Токарная обработка бронзы" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_172.png" serviceName="Токарная обработка титана" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_175.jpg" serviceName="Токарная обработка чугуна" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка капролона" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка полиамида" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка пластика" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка текстолита" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка эбонита" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка молибдена" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка оргстекла" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка полиуретана" linkHref="#"/>*/}
-        {/*      <ServiceBlock imageSrc="images/small_item_176.jpg" serviceName="Токарная обработка фторопласта" linkHref="#"/>*/}
-        {/*    </div>*/}
-        {/*    <div className="order">*/}
-        {/*      <a href="#"*/}
-        {/*         title=""*/}
-        {/*         className="btn btn-cta"*/}
-        {/*         onClick={(e) => {*/}
-        {/*           e.preventDefault();*/}
-        {/*           clickOrderService('Заказать услуги токаря');*/}
-        {/*         }}*/}
-        {/*      >Заказать услуги токаря</a>*/}
-        {/*    </div>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
         <div className="section feature overlap">
           <div className="container">
             <div className="row">
@@ -80,10 +46,10 @@ export default function Home() {
               </div>
             </div>
             <div className="row grid-services">
-              <OurWorksBlock imageSrc="images/tokarniye_raboty_1.jpg" serviceName="Токарные работы"></OurWorksBlock>
-              <OurWorksBlock imageSrc="images/tokarniye_raboty_2.jpg" serviceName="Валы"></OurWorksBlock>
-              <OurWorksBlock imageSrc="images/tokarniye_raboty_3.jpg" serviceName="Слесарные работы"></OurWorksBlock>
-              <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Слесарные работы"></OurWorksBlock>
+              <OurWorksBlock imageSrc="images/tokarniye_raboty_1.jpg" serviceName="Токарные работы из металла"></OurWorksBlock>
+              <OurWorksBlock imageSrc="images/tokarniye_raboty_2.jpg" serviceName="Токарные работы - Валы"></OurWorksBlock>
+              <OurWorksBlock imageSrc="images/tokarniye_raboty_3.jpg" serviceName=""></OurWorksBlock>
+              <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName=""></OurWorksBlock>
             </div>
             <div className="order">
               <a href="#"
@@ -104,25 +70,29 @@ export default function Home() {
               <h2 className="section-heading white">Какие материалы мы обрабатываем</h2>
             </div>
             <div className="text">
-              <p>Наша компания специализируется на токарных работах и обрабатывает различные материалы на заказ. Мы работаем с металлом, включая:</p>
-              <ul>
-                <li>алюминий</li>
-                <li>нержавеющую сталь</li>
-                <li>латунь</li>
-                <li>бронзу</li>
-                <li>медь</li>
-                <li>титан</li>
-                <li>чугун</li>
-              </ul>
-              <p>Кроме того, мы также обрабатываем ряд пластиков, включая:</p>
-              <ul>
-                <li>капролон</li>
-                <li>полиамид</li>
-                <li>фторопласт</li>
-              </ul>
-              <p>А также: текстолит, эбонит, молибден, оргстекло, полиуретан</p>
-
-              <p>Мы гордимся тем, что можем предложить широкий спектр материалов для наших клиентов, чтобы удовлетворить их потребности в различных проектах. Независимо от того, какой материал вам нужен, мы готовы предоставить высококачественные токарные работы.</p>
+              <div className="col-sm-6 col-md-6">
+                <p>Наша компания специализируется на токарных работах и обрабатывает различные материалы на заказ. Мы работаем с металлом, включая:</p>
+                <ul>
+                  <li>алюминий</li>
+                  <li>нержавейку(нержавеющую сталь)</li>
+                  <li>латунь</li>
+                  <li>бронзу</li>
+                  <li>медь</li>
+                  <li>титан</li>
+                  <li>чугун</li>
+                  <li>сплавы</li>
+                </ul>
+              </div>
+              <div className="col-sm-5 col-md-5">
+                <p>Кроме того, мы также обрабатываем ряд пластиков, включая:</p>
+                <ul>
+                  <li>капролон</li>
+                  <li>полиамид</li>
+                  <li>фторопласт</li>
+                </ul>
+                <p>А также: текстолит, эбонит, молибден, оргстекло, полиуретан</p>
+                <p>Мы гордимся тем, что можем предложить широкий спектр материалов для наших клиентов, чтобы удовлетворить их потребности в различных проектах. Независимо от того, какой материал вам нужен, мы готовы предоставить высококачественные токарные работы.</p>
+              </div>
             </div>
           </div>
         </div>
