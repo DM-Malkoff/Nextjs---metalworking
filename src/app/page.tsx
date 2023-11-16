@@ -55,7 +55,7 @@ export default function Home() {
               <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная работы по металлу"></OurWorksBlock>
               <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная обработка стали"></OurWorksBlock>
               <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная работы по металлу"></OurWorksBlock>
-              <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная обработка стали"></OurWorksBlock>
+              <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная обработка черной стали"></OurWorksBlock>
               <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная работы по металлу"></OurWorksBlock>
               <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная работы по металлу"></OurWorksBlock>
               <OurWorksBlock imageSrc="images/tokarniye_raboty_4.jpg" serviceName="Токарная работы по металлу"></OurWorksBlock>
@@ -82,11 +82,9 @@ export default function Home() {
               <div className="col-sm-6 col-md-6">
                 <p>Наша компания специализируется на токарных работах и обрабатывает различные материалы на заказ. Мы работаем с металлом, включая:</p>
                 <ul>
-                  <li>алюминий</li>
                   <li>нержавейку(нержавеющую сталь)</li>
-                  <li>латунь</li>
+                  <li>Цветные металлы: медь, латунь, алюминий и т.д</li>
                   <li>бронзу</li>
-                  <li>медь</li>
                   <li>титан</li>
                   <li>чугун</li>
                   <li>сплавы</li>
@@ -134,7 +132,7 @@ export default function Home() {
               </h2>
             </div>
             <div className="text">
-              <p>Наша компания производит широкий спектр продуции, выполняя различные виды металлообработки. Мы специализируемся на изготовлении разнообразных изделий, включая самые сложные.</p>
+              <p>Наша компания производит широкий спектр продуции, выполняя различные виды металлообработки. Мы специализируемся на изготовлении разнообразных металлических изделий, включая самые сложные.</p>
               <p>Мы предлагаем следующие виды деталей:</p>
               <ul>
                 <li>Штифты: делаем различных размеров и форм;</li>
@@ -274,7 +272,7 @@ export default function Home() {
               </ol>
               <p>Вся обработка металла происходит под постоянным контролем процесса, а мастер всегда имеет под рукой необходимый измерительный инструмент, такой как штангенциркуль, микрометр, нутромер и др.</p>
               <p>Преимущества использования станков с ЧПУ включают высокую точность обработки деталей, большую производительность, возможность программировать различные операции обработки. Кроме того, такие станки позволяют сократить время и затраты на производство, а также увеличить эффективность работы.</p>
-              <h3>Характеристики</h3>
+              <h3>Параметры</h3>
               <ul>
                 <li>Максимальная длина заготовки – 1000 мм.</li>
                 <li>Рабочий диаметр - до 450 мм.</li>
